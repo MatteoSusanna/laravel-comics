@@ -8,14 +8,18 @@
             <button class="btn btn-mod">CURRENT SERIES</button>
         </div>
 
-        <div class="comics">
-            <div class="comic">
-                <div class="comics-img">
-                    <img src="#" alt="">
-                </div>
-                <h4>fumetti</h4>
-            </div> 
-        </div>
+        
+            <div class="comics">
+            @foreach($fumetti as $fumetto)
+                <div class="comic">
+                    <div class="comics-img">
+                        <img src="{{ $fumetto['thumb'] }}" alt="">
+                    </div>
+                    <h4>{{ $fumetto['series'] }}</h4>
+                </div> 
+            @endforeach
+            </div>
+        
 
         <div class="button_wrap">
             <button class="btn">LOAD MORE</button>

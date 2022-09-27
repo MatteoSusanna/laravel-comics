@@ -152,10 +152,15 @@ footer .wrapper-bot .wrapper-footer-bot .social img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .comics .comic {
   width: calc(16.6666666667% - 1rem);
+}
+
+.comics .comic h4 {
+  margin: 10px 0;
 }
 
 .comics .comic .comics-img {
@@ -172,7 +177,6 @@ footer .wrapper-bot .wrapper-footer-bot .social img {
 main {
   background-color: #1c1c1c;
   color: white;
-  line-height: 100px;
   padding: 30px;
   position: relative;
 }

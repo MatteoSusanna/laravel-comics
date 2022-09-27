@@ -38,7 +38,7 @@
                         <li>
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="{{ asset('img/buy-comics-merchandise.png') }}">                                    
+                                    <img src="{{ asset('img/buy-dc-power-visa.svg') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
@@ -67,7 +67,7 @@
                         </div>
 
                         <div class="col-img">
-                            <img src="../assets/dc-logo-bg.png">
+                            <img src="{{ asset('img/dc-logo-bg.png') }}">
                         </div>
                     </div>
                 </div>
