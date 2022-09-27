@@ -38,5 +38,4 @@
                 </ul>
             </nav>
         </div>
-        <div class="jumbo"></div>
 </header>

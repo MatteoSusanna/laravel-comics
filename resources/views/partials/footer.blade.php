@@ -6,7 +6,7 @@
                             <!-- link footer top-->
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="linkfooter.img">                                    
+                                    <img src="{{ asset('img/buy-comics-digital-comics.png') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
@@ -14,7 +14,7 @@
                         <li>
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="linkfooter.img">                                    
+                                    <img src="{{ asset('img/buy-comics-merchandise.png') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
@@ -22,7 +22,7 @@
                         <li>
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="linkfooter.img">                                    
+                                    <img src="{{ asset('img/buy-comics-subscriptions.png') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
@@ -30,7 +30,7 @@
                         <li>
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="linkfooter.img">                                    
+                                    <img src="{{ asset('img/buy-comics-shop-locator.png') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
@@ -38,7 +38,7 @@
                         <li>
                             <div class="wrapper-link">
                                 <div class="img_link">
-                                    <img src="linkfooter.img">                                    
+                                    <img src="{{ asset('img/buy-comics-merchandise.png') }}">                                    
                                 </div>
                                 <a href="#">content</a>
                             </div>
