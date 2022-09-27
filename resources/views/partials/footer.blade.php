@@ -8,7 +8,7 @@
                                 <div class="img_link">
                                     <img src="linkfooter.img">                                    
                                 </div>
-                                <a :href="linkfooter.direzione">{{linkfooter.nome}}</a>
+                                <a href="#">content</a>
                             </div>
                         </li>
                         <li>
@@ -16,7 +16,7 @@
                                 <div class="img_link">
                                     <img src="linkfooter.img">                                    
                                 </div>
-                                <a :href="linkfooter.direzione">{{linkfooter.nome}}</a>
+                                <a href="#">content</a>
                             </div>
                         </li>
                         <li>
@@ -24,7 +24,7 @@
                                 <div class="img_link">
                                     <img src="linkfooter.img">                                    
                                 </div>
-                                <a :href="linkfooter.direzione">{{linkfooter.nome}}</a>
+                                <a href="#">content</a>
                             </div>
                         </li>
                         <li>
@@ -32,7 +32,7 @@
                                 <div class="img_link">
                                     <img src="linkfooter.img">                                    
                                 </div>
-                                <a :href="linkfooter.direzione">{{linkfooter.nome}}</a>
+                                <a href="#">content</a>
                             </div>
                         </li>
                         <li>
@@ -40,7 +40,7 @@
                                 <div class="img_link">
                                     <img src="linkfooter.img">                                    
                                 </div>
-                                <a :href="linkfooter.direzione">{{linkfooter.nome}}</a>
+                                <a href="#">content</a>
                             </div>
                         </li>
                     </ul>
@@ -55,12 +55,12 @@
                         <div class="col">
                             <div>
                                 <div class="cont-col">
-                                        <h2>titolo</h2>
-                                        <ul>
-                                            <li>
-                                                <a href="#">voce</a>
-                                            </li>
-                                        </ul>
+                                    <h2>titolo</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">voce</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
   
@@ -83,7 +83,7 @@
 
                         <div class="social">
                             <h2>FOLLOW AS</h2>
-                            <img src="social.url">
+                            <img src="#">
                         </div>
                     </div>
                     

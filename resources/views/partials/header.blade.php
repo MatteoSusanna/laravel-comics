@@ -1,41 +1,42 @@
 <header>
         <div class="container">
             <div class="logo">
-                <img src="@/assets/dc-logo.png" alt="">
+                <img src="{{ asset('img/dc-logo.png') }}" >
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="{{route('characters'}}">CHARACTERS</a>
+                        <a href="{{ route('characters') }}">CHARACTERS</a>
                     </li>
                     <li>
-                        <a href="{{route('comics'}}">COMICS</a>
+                        <a href="{{ route('comics') }}">COMICS</a>
                     </li>
                     <li>
-                        <a href="{{route('movies'}}">MOVIES</a>
+                        <a href="{{ route('movies') }}">MOVIES</a>
                     </li>
                     <li>
-                        <a href="{{route('tv'}}">TV</a>
+                        <a href="{{ route('tv') }}">TV</a>
                     </li>
                     <li>
-                        <a href="{{route('games'}}">GAMES</a>
+                        <a href="{{ route('games') }}">GAMES</a>
                     </li>
                     <li>
-                        <a href="{{route('collectibles'}}">COLLECTIBLES</a>
+                        <a href="{{ route('collectibles') }}">COLLECTIBLES</a>
                     </li>
                     <li>
-                        <a href="{{route('videos'}}">VIDEO</a>
+                        <a href="{{ route('videos') }}">VIDEO</a>
                     </li>
                     <li>
-                        <a href="{{route('fans'}}">FANS</a>
+                        <a href="{{ route('fans') }}">FANS</a>
                     </li>
                     <li>
-                        <a href="{{route('news'}}">NEWS</a>
+                        <a href="{{ route('news') }}">NEWS</a>
                     </li>
                     <li>
-                        <a href="{{route('shop'}}">SHOP</a>
+                        <a href="{{ route('shop') }}">SHOP</a>
                     </li>
                 </ul>
             </nav>
         </div>
+        <div class="jumbo"></div>
 </header>

@@ -1,1 +1,17 @@
-//
+@import './colori.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './main.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}

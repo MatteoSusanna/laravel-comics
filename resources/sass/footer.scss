@@ -1,0 +1,89 @@
+@import './colori.scss';
+    footer{
+        height: calc(100% - 250px);
+        background-image: url('../assets/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .wrapper-top{
+            height: 130px;
+            background-color: $backgrund_footer_top;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                padding: 10px;
+                li{
+                    list-style: none;
+                    
+                    .wrapper-link{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        .img_link{
+                            width: 40px;
+                            margin-right: 10px;
+                            
+                            img{
+                                max-width: 100%;
+                                object-fit: cover;
+                                                             
+                            }
+                        }
+                        a{
+                            line-height: 100%;
+                            text-decoration: none;
+                            color: $color_text;
+                        }
+                    }
+                }
+            }
+        }
+        .wrapper-mid{
+            height: calc(100% - 230px);
+            .cols{
+                display: flex;
+                justify-content: space-between;
+                height: 100%;
+                .col{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    padding-top: 50px;
+                }
+                .col-img{
+                    width: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .wrapper-bot{
+            height: 100px;
+            background-color: $backgrund_footer_bot;
+            .wrapper-footer-bot{
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .btn{
+                    padding: 10px;
+                    font-size: 18px;
+                    border: 1px solid #0282f9;
+                    color: white;
+                    background-color: $backgrund_footer_bot;
+                }
+                .social{
+                    display: flex;
+                    align-items: center;
+                    color: #0282f9;
+                    img{
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }

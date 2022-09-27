@@ -1,0 +1,46 @@
+@import './colori.scss';
+header{
+    height: 150px;
+    padding-top: 10px;
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+            
+        ul{
+            display: flex;
+            align-content: center;
+            list-style: none;
+            height: 100%;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    color: $color_text_nav;
+                    font-weight: bold;
+                    height: 100%;
+                    line-height: 150px;
+                    margin: 0 10px;
+                        &:hover, &.active{
+                        color: $backgrund_footer_top;
+                        border-bottom: 3px solid $backgrund_footer_top;
+                        
+                    }
+                    
+                }
+            }
+        }
+            
+    }
+}
+
+.jumbo{
+    height: 350px;
+    background-image: url('../../public/img/jumbotron.jpg');
+}
